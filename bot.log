@@ -1,0 +1,40 @@
+2026-03-02 17:42:40,525 - root - INFO - Инициализация бота...
+2026-03-02 17:42:40,679 - root - INFO - Удаление старых вебхуков...
+2026-03-02 17:42:41,004 - root - INFO - Бот запущен и начинает опрос (polling)!
+2026-03-02 17:42:41,005 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 17:42:41,111 - aiogram.dispatcher - INFO - Run polling for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Giftbot'
+2026-03-02 17:42:42,168 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 17:42:42,169 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-03-02 17:42:42,169 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7574938170)
+2026-03-02 17:42:42,440 - aiogram.dispatcher - INFO - Polling stopped for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Giftbot'
+2026-03-02 17:42:42,445 - root - INFO - Бот остановлен вручную.
+2026-03-02 21:40:27,339 - root - INFO - Удаление вебхуков...
+2026-03-02 21:40:27,726 - root - INFO - Запуск polling...
+2026-03-02 21:40:27,726 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 21:40:27,849 - aiogram.dispatcher - INFO - Run polling for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Sovg’aBot🎁'
+2026-03-02 21:40:28,437 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 21:40:28,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-03-02 21:40:28,439 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7574938170)
+2026-03-02 21:40:28,703 - aiogram.dispatcher - INFO - Polling stopped for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Sovg’aBot🎁'
+2026-03-02 21:40:28,705 - root - INFO - Остановка по команде пользователя.
+2026-03-02 21:42:32,946 - root - INFO - Удаление вебхуков...
+2026-03-02 21:42:33,331 - root - INFO - Запуск polling...
+2026-03-02 21:42:33,331 - aiogram.dispatcher - INFO - Start polling
+2026-03-02 21:42:33,477 - aiogram.dispatcher - INFO - Run polling for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Sovg’aBot🎁'
+2026-03-02 21:42:34,528 - aiogram.dispatcher - INFO - Polling stopped
+2026-03-02 21:42:34,530 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-03-02 21:42:34,531 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7574938170)
+2026-03-02 21:42:34,791 - aiogram.dispatcher - INFO - Polling stopped for bot @EnigmaMax_W62Bev_bot id=7574938170 - 'Sovg’aBot🎁'
+2026-03-02 21:42:34,792 - root - INFO - Остановка по команде пользователя.
+2026-03-02 21:43:27,364 - root - INFO - Удаление вебхуков...
+2026-03-02 21:43:27,365 - root - ERROR - Ошибка в цикле polling: 'str' object has no attribute 'api_url'
+2026-03-02 21:43:27,365 - root - INFO - Перезапуск через 5 сек...
+2026-03-02 21:43:32,366 - root - INFO - Удаление вебхуков...
+2026-03-02 21:43:32,366 - root - ERROR - Ошибка в цикле polling: 'str' object has no attribute 'api_url'
+2026-03-02 21:43:32,366 - root - INFO - Перезапуск через 10 сек...
+2026-03-02 21:43:42,370 - root - INFO - Удаление вебхуков...
+2026-03-02 21:43:42,371 - root - ERROR - Ошибка в цикле polling: 'str' object has no attribute 'api_url'
+2026-03-02 21:43:42,371 - root - INFO - Перезапуск через 20 сек...
+2026-03-02 21:43:51,642 - root - INFO - Остановка по команде пользователя.
+2026-03-02 21:43:51,643 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000217B10D2A50>
