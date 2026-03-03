@@ -1,3 +1,4 @@
+import os
 import asyncio
 import logging
 import sys
@@ -5,7 +6,6 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.client.session.aiohttp import AiohttpSession
 from aiogram.enums import ParseMode
-from config import BOT_TOKEN
 from handlers import start, catalog, payment
 
 # Configure logging
@@ -25,7 +25,7 @@ async def start_bot():
     )
     
     bot = Bot(
-        token=BOT_TOKEN,
+        token=os.getenv('BOT_TOKEN')
         session=session,
         default=DefaultBotProperties(parse_mode=ParseMode.HTML)
     )
@@ -61,3 +61,4 @@ if __name__ == "__main__":
         logging.info("Остановка по команде пользователя.")
     except Exception as e:
         logging.critical(f"Глобальный сбой: {e}")
+
