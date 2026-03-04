@@ -25,7 +25,7 @@ async def start_bot():
     )
     
     bot = Bot(
-        token=os.getenv('BOT_TOKEN')
+        token=os.getenv("BOT_TOKEN")
         session=session,
         default=DefaultBotProperties(parse_mode=ParseMode.HTML)
     )
@@ -61,4 +61,5 @@ if __name__ == "__main__":
         logging.info("Остановка по команде пользователя.")
     except Exception as e:
         logging.critical(f"Глобальный сбой: {e}")
+
 
